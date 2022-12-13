@@ -156,20 +156,14 @@
 - T2: `bash test_cpuid.sh 0x4ffffffd`
 - T1: `sudo dmesg`
 
-  ![](./images/t1.png)
-  ![](./images/t2.png)
-  ![](./images/t3.png)
+      #### Please refer screenshots folder
 
 13. Testing the CPUID functionality for `%eax=0x4ffffffc`
 
 - T2: `bash test_cpuid.sh 0x4ffffffc`
 - T1: `sudo dmesg`
 
-  ![](./images/t4.png)
-  ![](./images/t5.png)
-  ![](./images/t6.png)
-  ![](./images/t7.png)
-  ![](./images/t8.png)
+  #### Please refer screenshots folder
 
 ## Question 3:
 
@@ -178,8 +172,8 @@ Comment on the frequency of exits – does the number of exits increase at a sta
 - For exits, **HLT(10)** and **CPUID(12)** the number of exits increases at a stable rates as these exits are called fairly regularly.
 
   Output:
-  ![](./images/tq1.png)
-  ![](./images/tq2.png)
+
+  #### Please refer screenshots folder
 
 <br />
 
